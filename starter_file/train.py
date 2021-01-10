@@ -28,7 +28,7 @@ def clean_data(data):
 # Data is located at:
 # "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
 
-path = "https://github.com/jhonatantirado/nd00333-capstone/blob/master/starter_file/heart_failure_clinical_records_dataset.csv"
+path = "https://raw.githubusercontent.com/jhonatantirado/nd00333-capstone/master/starter_file/heart_failure_clinical_records_dataset.csv"
 ds = TabularDatasetFactory.from_delimited_files(path, validate=True, include_path=False, infer_column_types=True, set_column_types=None, separator=',', header=True, partition_format=None, support_multi_line=False, empty_as_string=False)
 
 ### YOUR CODE HERE ###
