@@ -105,6 +105,9 @@ To query the model and predict a new instance, we should send a POST request to 
 
 POST http://a10dc4c0-4353-4824-9eb8-293d64e7fe81.southcentralus.azurecontainer.io/score
 
+
+The input can predict several data instances in parallell since the input payload supports multiple data instances.
+
 Sample input/payload:
 
 ```
@@ -149,6 +152,8 @@ Also, if authentication is enabled, we should include key in the header as follo
 - Authorization: Bearer {key}
 
 The request can be submitted using clients like POSTMAN, or directly from code as in [endpoint.py](https://github.com/jhonatantirado/nd00333-capstone/blob/master/starter_file/endpoint.py)
+
+Scoring URI Swagger documentation![Scoring URI Swagger documentation](https://github.com/jhonatantirado/nd00333-capstone/blob/master/SwaggerDocumentation.png)
 
 ## Screen Recording
 
