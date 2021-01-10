@@ -62,6 +62,7 @@ The goal is to predict if a person will survive heart failure event based on the
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 ## Screen Recording
+https://www.youtube.com/watch?v=wZj6kmEjMHw
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
 - Demo of the deployed  model
