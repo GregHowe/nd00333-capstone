@@ -10,9 +10,7 @@ We will train a model using Hyperparameter tuning, and a model using AutoML. The
 
 ### Overview
 
-The Heart Failure Prediction dataset was downloaded from Kaggle. However, the dataset was originally built for the following paper:
-Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020)
-The dataset was collected "at the Faisalabad Institute of Cardiology and at the Allied Hospital in Faisalabad (Punjab, Pakistan), during April–December 2015".
+The Heart Failure Prediction dataset was downloaded from Kaggle. However, the dataset was originally built for [1] and collected "at the Faisalabad Institute of Cardiology and at the Allied Hospital in Faisalabad (Punjab, Pakistan), during April–December 2015".
 
 It contains twelve(12) feature columns and one (1) class column, and 299 rows (records), for 194 men and 105 women, between 40 and 95 years old. All of them had already suffered a heart failure event in the past.
 
@@ -121,4 +119,4 @@ https://www.youtube.com/watch?v=wZj6kmEjMHw
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 ## References
-(1) Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, https://doi.org/10.1186/s12911-020-1023-5 (2020)
+[1] Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, https://doi.org/10.1186/s12911-020-1023-5 (2020)
