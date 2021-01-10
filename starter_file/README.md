@@ -99,20 +99,66 @@ Hyperdrive best model in ML Studio
 
 ## Model Deployment
 
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+The AutoML Voting Ensemble model was deployed to an Azure Container Instance programmatically.
+
+To query the model and predict a new instance, we should send a POST request to the score endpoint.
+
+POST http://a10dc4c0-4353-4824-9eb8-293d64e7fe81.southcentralus.azurecontainer.io/score
+
+Sample input/payload:
+
+```
+{
+  "data": [
+    {
+      "age": 36,
+      "anaemia": 0,
+      "creatinine_phosphokinase": 200,
+      "diabetes": 0,
+      "ejection_fraction": 30,
+      "high_blood_pressure": 0,
+      "platelets": 120000,
+      "serum_creatinine": 1.1,
+      "serum_sodium": 135,
+      "sex": 1,
+      "smoking": 0,
+      "time": 7
+    },
+    {
+      "age": 39,
+      "anaemia": 0,
+      "creatinine_phosphokinase": 300,
+      "diabetes": 0,
+      "ejection_fraction": 50,
+      "high_blood_pressure": 0,
+      "platelets": 200000,
+      "serum_creatinine": 0.9,
+      "serum_sodium": 250,
+      "sex": 0,
+      "smoking": 0,
+      "time": 1
+    }
+  ]
+}
+```
+
+The content type should be set in the headers:
+- Content-Type: 'application/json'
+
+Also, if authentication is enabled, we should include key in the header as follows:
+- Authorization: Bearer {key}
+
+The request can be submitted using clients like POSTMAN, or directly from code as in [endpoint.py](https://github.com/jhonatantirado/nd00333-capstone/blob/master/starter_file/endpoint.py)
 
 ## Screen Recording
 
 [Capstone Project by Jhonatan Tirado](https://www.youtube.com/watch?v=wZj6kmEjMHw)
 
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+The screencast includes the following:
 
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 ## References
 [1] Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, [DOI link](https://doi.org/10.1186/s12911-020-1023-5) (2020)
