@@ -32,7 +32,8 @@ The goal is to predict if a person will survive a heart failure event before the
 
 ### Access
 
-The dataset CSV file is hosted in a Github repo. Thus, we need to access it as raw content, using a URL that starts with: "https://raw.githubusercontent.com"
+The dataset CSV file is hosted in a Github repo. Thus, we need to access it as raw content, using a URL that starts with: "https://raw.githubusercontent.com".
+
 Next, we use the Azure ML Dataset library to download and convert the CSV file to a dataset that can be used by the Jupyter notebook running on an Azure ML compute instance.
 
 ## Automated ML
@@ -60,16 +61,13 @@ According to (1), serum creatinine and ejection fraction are the most relevant f
 
 
 AutoML experiment RunDetails
-![AutoML experiment RunDetails]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-RunDetails.png)
+![AutoML experiment RunDetails](https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-RunDetails.png)
 
 AutoML best model
-![AutoML best model]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-BestModel.png)
+![AutoML best model](https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-BestModel.png)
 
 AutoML Voting Ensemble model
-![AutoML Voting Ensemble model]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-VotingEnsembleBestModel.png)
+![AutoML Voting Ensemble model](https://github.com/jhonatantirado/nd00333-capstone/blob/master/AutoML-VotingEnsembleBestModel.png)
 
 ## Hyperparameter Tuning
 
@@ -91,23 +89,21 @@ In both cases, having a bigger dataset could also help improving the results. Ho
 
 
 Hyperdrive RunDetails
-![Hyperdrive RunDetails]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdrive-RunDetails.png)
+![Hyperdrive RunDetails](https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdrive-RunDetails.png)
 
 Hyperdrive best model
-![Hyperdrive best model]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdrive-BestModel.png)
+![Hyperdrive best model](https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdrive-BestModel.png)
 
 Hyperdrive best model in ML Studio
-![Hyperdrive best model in ML Studio]
-(https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdriver-BestModelMLStudio.png)
+![Hyperdrive best model in ML Studio](https://github.com/jhonatantirado/nd00333-capstone/blob/master/Hyperdriver-BestModelMLStudio.png)
 
 ## Model Deployment
 
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 ## Screen Recording
-https://www.youtube.com/watch?v=wZj6kmEjMHw
+
+[Capstone Project by Jhonatan Tirado](https://www.youtube.com/watch?v=wZj6kmEjMHw)
 
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
@@ -119,4 +115,4 @@ https://www.youtube.com/watch?v=wZj6kmEjMHw
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 ## References
-[1] Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, https://doi.org/10.1186/s12911-020-1023-5 (2020)
+[1] Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, [DOI link](https://doi.org/10.1186/s12911-020-1023-5) (2020)
