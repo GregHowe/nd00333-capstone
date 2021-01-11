@@ -175,13 +175,14 @@ Scoring URI Swagger documentation![Scoring URI Swagger documentation](https://gi
 
 ## Screen Recording
 
-[Capstone Project by Jhonatan Tirado](https://www.youtube.com/watch?v=wZj6kmEjMHw)
+[Capstone Project by Jhonatan Tirado](https://www.youtube.com/watch?v=fQRlLeOf72E)
 
 The screencast includes the following:
 
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+- A working model: heart-failure-prediction-automl-model
+- Demo of the deployed  model: heartfailurepredictionautomlv2
+- Demo of a sample request sent to the endpoint and its response: using the endpoint.py script and the Jupyter notebook
+- Demo of any additional feature of your model: Application Insights
 
 ## References
 [1] Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16, [DOI link](https://doi.org/10.1186/s12911-020-1023-5) (2020)
